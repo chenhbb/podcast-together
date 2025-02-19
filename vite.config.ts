@@ -31,7 +31,17 @@ export default defineConfig(() => {
       })
     ],
     server: {
-      host: "0.0.0.0"
+      //host: "0.0.0.0"
+      port: 3000,
+      host: true,
+      https: true,
+      hmr: {
+        overlay: true,    // 错误遮罩
+        timeout: 5000,    // 重新连接超时时间
+      },
+      watch: {
+        usePolling: true  // 在某些系统中需要这个来提高文件变化检测的可靠性
+      }
     },
     resolve: {
       alias: {

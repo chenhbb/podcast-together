@@ -27,7 +27,7 @@ const onTapCreateBtn = (e: Event) => {
   <div class="page">
     <div class="page-container">
       <div class="div-bg-img index-icon-img"></div>
-      <h1>一起听播客</h1>
+      <h1>和hb一起听播客8~</h1>
 
       <a v-if="showInstallPwaBtn" class="index-opensource-url" :href="OPEN_SOURCE_URL" target="_blank">
         <img :src="theme === 'light' ? images.GITHUB : images.GITHUB_DM" class="index-ou-github"/>
