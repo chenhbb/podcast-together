@@ -50,9 +50,9 @@ const onTapCreateBtn = (e: Event) => {
         <span>安装应用</span>
       </div>
       
-      <p class="page-btns-p">
+      <!-- <p class="page-btns-p">
         本项目由开源 Serverless 平台 <a class="pbp-a" href="https://www.lafyun.com/" target="_blank">Laf</a> 全力驱动支持
-      </p>
+      </p> -->
     </div>
   </div>
 
