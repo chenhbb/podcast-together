@@ -131,7 +131,7 @@ const _setWeChat = (wxShare: WxShare) => {
 }
 
 const _reset = () => {
-  let title = "一起听播客"
+  let title = "和hb一起听播客8~"
   let desc = "跟你的好友一起实时听播客！"
   let iconUrl = images.FAVI_ICON
   _setBasic(title, desc, iconUrl, "all")
