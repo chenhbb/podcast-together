@@ -39,6 +39,12 @@ const onTapCreateBtn = (e: Event) => {
     <div class="page-btns">
       <pt-button class="index-main-btn" text="创建房间" @click="onTapCreateBtn"></pt-button>
 
+      <a v-if="!showInstallPwaBtn" :href="OPEN_SOURCE_URL" target="_blank">
+        <div class="index-other-btn">
+          <img :src="theme === 'light' ? images.GITHUB : images.GITHUB_DM" class="index-github"/>
+          <span>开源地址</span>
+        </div>
+      </a>
       <div v-else class="index-other-btn" @click="onTapInstall">
         <img :src="theme === 'light' ? images.IC_DOWNLOAD : images.IC_DOWNLOAD_DM" class="index-btn-icon"/>
         <span>安装应用</span>
